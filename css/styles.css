@@ -1,0 +1,21 @@
+@font-face {
+    font-family: ObviouslyVariable;
+    src: url('https://use.typekit.net/af/94379b/0000000000000000774b907c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3');
+}
+
+:root {
+    --couleur-texte: #2a292b;
+    --color-bg: #f9f4ed;
+    --color-bouton: #ff5c00;
+    --hauteur-entete: 5rem;
+    --border-radius: 1.25rem;
+    --espacement: 0.75rem
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: var(--espacement);
+}
